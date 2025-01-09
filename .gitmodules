@@ -1,0 +1,9 @@
+[submodule "Unity-Robotics-Hub"]
+	path = Unity-Robotics-Hub
+	url = https://github.com/Unity-Technologies/Unity-Robotics-Hub.git
+[submodule "ROS-TCP-Connector"]
+	path = ROS-TCP-Connector
+	url = https://github.com/Unity-Technologies/ROS-TCP-Connector.git
+[submodule "ROS_Pack/ros_tcp_endpoint"]
+	path = ROS_Pack/ros_tcp_endpoint
+	url = https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
