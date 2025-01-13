@@ -62,9 +62,11 @@ class ImageSplit(Node):
 
         self.image_pub.publish(msg)
         self.get_logger().info("Publishing image")
-        # cv.imshow("Left Image", left_image)
-        # cv.imshow("Right Image", right_image)
-        # cv.waitKey(1)
+        cv.imshow("Left Image", left_image)
+        cv.imshow("Right Image", right_image)
+        if cv.waitKey(1) == ord("s"):
+            cv.imwrite(f"left.png", left_image)
+            cv.imwrite(f"right.png", right_image)
 
 
 def main():
